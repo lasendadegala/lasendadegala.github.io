@@ -1,0 +1,172 @@
+/*
+http://patternico.com/ for seamless backgrounds
+https://www.canva.com/color-palette/ for extracting a palette color from an image
+
+<a href='https://www.freepik.com/free-vector/social-media-logotype-collection_2475268.htm'>Designed by Saragnzalez</a>
+*/
+::selection {
+	background-color: #0c816a;
+}
+
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.form-control{display: block;width:100%;}
+
+form{margin-bottom:0!important;}
+
+.selectize-input {padding:5px 5px;line-height: 25px;}  
+     
+body{
+	font-size: 1.2em;
+	line-height: 1.4;
+	min-width:240px;
+	margin:0;padding:0;border:0;
+	background-color:#efefef;
+	color: #333;       
+	font-family: 'Arimo', sans-serif;
+}
+
+.blueberry{color:#6B7A8F;}
+.apricot{color:#F7882F;}
+.citrus{color:#F7C331;}
+.applecore{color:#DCC7AA;}  
+
+.blueberry-bg{background-color:#6B7A8F;}
+.apricot-bg{background-color:#F7882F;}
+.citrus-bg{background-color:#F7C331;}
+.applecore-bg{background-color:#DCC7AA;}  
+
+.Rosy-Brown{color:#AC5C86;}
+.Dark-Slate-Gray{color:#49546C;}
+.Dark-Gray{color:#B5AFA9;}
+.Dark-Slate-Gray{color:#1C1D1D;}
+.Dim-Gray{color:#77746C;}
+.Dark-Khaki{color:#9C7456;}
+
+.Rosy-Brown-bg{background-color:#AC5C86;}
+.Dark-Slate-Gray-bg{background-color:#49546C;}
+.Dark-Gray-bg{background-color:#B5AFA9;}
+.Dark-Slate-Gray-bg{background-color:#1C1D1D;}
+.Dim-Gray-bg{background-color:#77746C;}
+
+h1,h2,h3,h4,h5,h6{font-family: 'Abril Fatface', cursive; font-weight: 400!important; font-style: normal!important;}
+
+h1,h2,h3,h4,h5,h6,p{
+	line-height: 1.45;
+	text-shadow: 1px 4px 8px #AAA;
+}
+
+h1{font-size: 5.2rem;margin: 30px 50px 30px;}
+h2{font-size: 3.8rem;color: #666;}
+
+h1.header_title{
+	float: left;
+	color: #161616;	
+	margin:0px;
+}
+
+h2.header_description{
+	clear: none;
+	float: left;
+	display: block;
+	margin: 18px 0 0 24px;	
+}
+
+h3{font-size: 2.8rem;text-align:center;}
+p{font-size: 2.2rem;}
+figure{padding:0;margin:0;border:0;}
+
+.logo{
+	width: 295px;
+    opacity: 0.75;
+	
+	border: solid 2px #FEFEFE;
+	padding:5px;
+	background-clip: content-box; /* support: IE9+ */
+	background-color: #FEFEFE;
+}
+
+.shadow{	
+	box-shadow: 0px 5px 45px #555;
+}
+header{
+	display: flow-root;
+	position:relative;
+	z-index:11;
+	background-color:#FEFEFE;
+	height:100px;
+	padding-left:50px;
+}
+
+section{
+	display: flow-root;
+	position:relative;
+	min-height: 100px;
+	padding:25px 45px;
+	text-align:center;
+}
+div.titular{
+	text-align:center;
+	background-color:#FEFEFE;
+	
+	opacity:0.65;
+	
+	border: solid 2px #FEFEFE;
+	padding:5px;
+	background-clip: content-box; /* support: IE9+ */
+	background-color: #FEFEFE;
+}
+.slick-item{
+
+}
+/* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit; */
+#cover{	
+	background: linear-gradient(rgba(0, 0, 0, 0.36), rgba(255, 255, 255, 0.16)), url(".././img/portada.jpg") no-repeat center center;
+	background-size: cover;
+	z-index:10;
+	/*
+	flex-direction: row | row-reverse | column | column-reverse;
+	flex-wrap: nowrap | wrap | wrap-reverse;
+	justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+	align-items: flex-start | flex-end | center | baseline | stretch;
+	align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+	*/
+	
+	display:flex;
+	flex-flow: row wrap;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:flex-end;
+	align-items:center;
+	
+	height:40vh;
+}
+#cover figcaption a{padding-left:10px;padding-right:10px;}
+#social{margin: 16px 0px 0px 24px;}
+#title{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items:center;
+}
+
+#adopta{background-image:url(".././img/bg/home.png");z-index:9;}
+
+#amadrina{background-image:url(".././img/bg/paw.png");z-index:8;}
+
+#colabora{background-image: url(".././img/bg/heart.png");z-index:7;}
+
+#blog{background-image: url(".././img/bg/question.png");z-index:6;}
+
+#tienda{background-image: url(".././img/bg/gift.png");z-index:5;}
+
+
+
+
+
+
